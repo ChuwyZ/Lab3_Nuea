@@ -8,8 +8,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature request!
-
   - type: input
     id: contact_name
     attributes:
@@ -18,7 +16,7 @@ body:
       placeholder: "ex. Sertha Taweewattana"
     validations:
       required: true
-
+    Thanks for taking the time to fill out this feature request!
   - type: dropdown
     id: request_type
     attributes:
