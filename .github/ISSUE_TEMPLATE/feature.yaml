@@ -35,7 +35,9 @@ body:
       label: What is the OS which you want to suggest?
       description: Select the operating system
       options:
-        - Selections:
+        - Windows
+        - macOS
+        - Linux
     validations:
       required: true
 
