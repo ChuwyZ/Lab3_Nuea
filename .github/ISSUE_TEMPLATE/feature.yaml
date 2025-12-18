@@ -26,8 +26,6 @@ body:
       description: Select the type of your request
       options:
         - New Feature
-        - Improvement
-        - Enhancement
     validations:
       required: true
 
@@ -37,9 +35,7 @@ body:
       label: What is the OS which you want to suggest?
       description: Select the operating system
       options:
-        - Windows
-        - macOS
-        - Linux
+        - Selections:
     validations:
       required: true
 
